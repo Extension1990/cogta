@@ -1,0 +1,56 @@
+.login-container {
+    background-image: url('../../../../../assets/img/cogta/assets/images/bg0.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-left: 200px !important;
+    padding-right: 200px !important;
+}
+a {
+    cursor: pointer;
+}
+.login-container {
+    width: 100% !important;
+}
+.main-text {
+    margin-top: 25% !important;
+    font-size: 70px !important;
+    float: right !important;
+}
+.sub-text {
+    font-size: 20px !important;
+}
+.btn-login {
+    font-size: 15px !important;
+    height: auto !important;
+}
+.file-name {
+    margin-left: 1rem; /* or whatever margin you require */
+}
+
+
+@media screen and (max-width: 992px) {
+    .login-container {
+        background-image: url('../../../../../assets/img/cogta/assets/images/bg0.png');
+        background-repeat: no-repeat;
+        background-size: cover;
+        padding-left: 10px !important;
+        padding-right: 10px !important;
+    }
+    .main-text, .sub-text {
+        display: none !important;
+    }
+    .card {
+        margin-top: 10px !important;
+    }
+    .shout, .workforce {
+        margin-top: 10px !important;
+        width: 100% !important;
+    }
+    .buttons {
+        a {
+            align-items: center !important;
+            justify-content: center !important;
+            display: flex !important;
+        }
+    }
+}
